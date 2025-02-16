@@ -1,8 +1,12 @@
-# React + Vite
+# Resolução dos Exercícios - Formação Modular de 25h em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém as resoluções dos exercícios do curso de React, oferecido pela Ironhack Labs, como parte da formação modular de 25 horas em React.
 
-Currently, two official plugins are available:
+O curso abrange os conceitos fundamentais de React, incluindo componentes, estado, props, manipulação de eventos, hooks, roteamento, entre outros, com foco em prática e desenvolvimento de projetos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Exercícios
+
+Os exercícios abordam uma variedade de tópicos e estão disponíveis no [link oficial do repositório](https://github.com/ironhack-labs/lab-react-training?tab=readme-ov-file).
+
+Cada exercício foi resolvido de forma incremental, começando com o básico e avançando para conceitos mais complexos.
+
