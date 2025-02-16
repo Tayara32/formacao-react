@@ -1,0 +1,20 @@
+.carouselContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.carouselImage {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.carouselButton {
+    background-color: #2f4b58;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    height: 50%;
+}

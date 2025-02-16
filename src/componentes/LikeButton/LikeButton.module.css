@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    gap: 1%;
+}
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+    margin: 1%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+  

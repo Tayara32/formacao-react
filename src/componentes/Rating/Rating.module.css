@@ -1,0 +1,16 @@
+.rating {
+    display: flex;
+
+}
+.filled {
+    color: gold;
+}
+
+.empty {
+    color: lightgray; 
+}
+
+span {
+    font-size: 24px;
+    margin: 0 2px;
+}

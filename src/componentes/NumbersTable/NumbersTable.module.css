@@ -1,0 +1,21 @@
+.numbersTable {
+    display: grid;
+    grid-template-columns: repeat(5, 60px); 
+    width: 300px; 
+    grid-auto-flow: dense;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.even {
+    background-color: red; 
+}
