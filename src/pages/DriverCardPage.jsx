@@ -1,5 +1,7 @@
 import React from "react";
 import DriverCard from "../componentes/DriverCard/DriverCard";
+import { Link } from "react-router-dom";
+import "../css/HomePage.css";
 
 function DriverCardPage() {
   return (
@@ -24,6 +26,10 @@ function DriverCardPage() {
           licensePlate: "BE33ER",
         }}
       />
+
+      <Link to="/" className="back-button">
+        🔙 Voltar
+      </Link>
     </div>
   );
 }

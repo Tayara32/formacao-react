@@ -1,6 +1,8 @@
 import React from "react";
 import CreditCard from "../componentes/CreditCard/CreditCard";
 import style from "../componentes/CreditCard/CreditCard.module.css";
+import { Link } from "react-router-dom";
+import "../css/HomePage.css";
 
 function CreditCardPage() {
   return (
@@ -40,6 +42,9 @@ function CreditCardPage() {
           color="white"
         />
       </div>
+      <Link to="/" className="back-button">
+        🔙 Voltar
+      </Link>
     </div>
   );
 }

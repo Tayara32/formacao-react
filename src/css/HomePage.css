@@ -1,0 +1,83 @@
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e7d0d9;
+}
+
+.homepage-container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px  #cdb4db;
+}
+
+.title {
+  font-size: 2rem;
+  color: #b371da;
+  margin-bottom: 10px;
+}
+
+.description, p {
+  font-size: 1.1rem;
+  color: #ffafcc;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  background-color: #bde0fe; 
+  color: #564461;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.menu a:hover {
+  background-color: #ffafcc; 
+  transform: scale(1.05);
+}
+
+/* Botão de voltar */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #ffafcc; 
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: #cdb4db; 
+  transform: scale(1.05);
+}
