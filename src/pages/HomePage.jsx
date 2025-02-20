@@ -27,9 +27,10 @@ function HomePage() {
                 <li><Link to="/FaceBook">📘 FaceBook</Link></li>
                 <li><Link to="/FaceBookAvancado">📘 FaceBook Avançado</Link></li>
                 <li><Link to="/SignupPage">📝 Signup Page</Link></li>
+                <li><Link to="/SingleColorPicker">🎨 Single Color Picker</Link></li>
               </ul>
             </nav>
-            <p>By Tayara Cruz</p>
+            <p className='name'>By Tayara Cruz</p>
           </div>
          
       </div>

@@ -66,3 +66,63 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+.active{
+  color: white;
+}
+
+.user {
+  display: flex;
+  border: 1px solid white;
+  padding: 12px;
+  margin-bottom: 12px;
+  min-width: 400px;
+}
+
+.user > img {
+  width: 120px;
+}
+
+.user > .details{
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.actions{
+  display: flex;
+  margin: 12px;
+  gap: 12px;
+
+}
+
+.actions button{
+  background-color: burlywood;
+  
+}
+
+button.selected{
+  background-color: #747bff;
+  color: white;
+}
+
+.user.selected{
+  background-color: #747bff;
+  color: white;
+}
+
+.color-square{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.color-picker{
+  display: flex;
+  min-width: 300px;
+  align-items: center;
+}

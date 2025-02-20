@@ -23,7 +23,7 @@
   margin-bottom: 10px;
 }
 
-.description, p {
+.description, .name {
   font-size: 1.1rem;
   color: #ffafcc;
   margin-bottom: 20px;

@@ -18,6 +18,7 @@ import FaceBookPage from "./pages/FaceBookPage";
 import FaceBookAvancadoPage from "./pages/FaceBookAvancadoPage";
 import SignupPagePage from "./pages/SignupPagePage";
 import HomePage from "./pages/HomePage";
+import SingleColorPickerPage from "./pages/SingleColorPickerPage";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <Route path="/FaceBook" element={<FaceBookPage />} />
       <Route path="/FaceBookAvancado" element={<FaceBookAvancadoPage />} />
       <Route path="/SignupPage" element={<SignupPagePage />} />
+      <Route path="/SingleColorPicker" element={<SingleColorPickerPage />} />
      </Routes>
 
       
